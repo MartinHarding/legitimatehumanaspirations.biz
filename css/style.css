@@ -1,0 +1,71 @@
+body {
+	background-color: #999;
+	padding: 0px;
+	margin: 0px;
+}
+/* White space at top */
+header, main {
+	margin-top: 100px;
+}
+
+header {
+	width: 220px;
+	margin-right: 16px;
+	background-color: #fff;
+	float: left;
+	height: 100%;
+}
+#foo ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+#foo ul li a {
+	display: block;
+	width: 200px;
+	font-size: 24px;
+	padding: 10px;
+	letter-spacing: 5px;
+	background-color: #eee;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#foo ul li a:link {
+	color: #999;
+}
+#foo ul li a:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+main {
+	float: left;
+}
+
+footer {
+	clear:both;
+}
+#bgcontainer {
+	position: fixed;
+	z-index: -100;
+	left: 100px;
+	right: 100px;
+	top: 100px;
+	bottom: 100px;
+	background-color: #111;
+	overflow: hidden;
+}
+#bgimage {
+	width: 100%;
+}
+
+
+#loader {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #fff;
+	display: none;
+}
